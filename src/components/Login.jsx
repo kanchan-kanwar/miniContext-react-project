@@ -16,12 +16,13 @@ function Login() {
         onChange = {(e) => setUsername(e.target.value)}
         placeholder='username' />
         {"      "}
-         <input type = "password" 
-         value = {password}
+        <input type = "password" 
+        value = {password}
         onChange = {(e) => setPassword(e.target.value)}
-         placeholder='password' />
-         <button onClick = {handleSubmit}>Submit</button>
+        placeholder='password' />
+        <button onClick = {handleSubmit}>Submit</button>
     </div>
   )
 }
 export default Login;
+
